@@ -1,0 +1,19 @@
+
+1. Forked latest on 7-2-2019 from:
+https://github.com/altera-opensource/linux-socfpga.git
+
+2. Using my cloned repo the contains all the TAGS Intel deleted:
+   - pulled then repointed to URL to my fork, then pushed the tags
+   
+   cd /home/jim/github_socfpga_complete/linux-socfpga-jdh
+   git pull
+   git remote set-url origin  git@github.com:jhaberly/linux-socfpga.git
+   git push --tags
+   git remote set-url origin  https://github.com/altera-opensource/linux-socfpga.git
+
+3. Verified my fork has all tags and that the following could be checked out.
+   Verified the source file after checkout against tar files from Buildroot dl foldersfor the following:
+   ACDS14.1_REL_GSRD_PR
+   ACDS16.1_REL_GSRD_PR
+   
+   
