@@ -9,4 +9,6 @@ To Update linux-socfpga-haberly at https://github.com/jhaberly/linux-socfpga
 
 Verify linux-socfpga-haberly fork has all new tags and the latest can be checked out.
  
-   
+
+
+git ls-remote --tags https://github.com/terasic/linux-socfpga.git 3 | grep -i acds
