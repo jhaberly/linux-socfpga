@@ -1,0 +1,12 @@
+
+To Update linux-socfpga-haberly at https://github.com/jhaberly/linux-socfpga
+  
+   cd linux-socfpga-altera
+   git pull
+   git remote set-url origin  git@github.com:jhaberly/linux-socfpga.git
+   git push --tags
+   git remote set-url origin  https://github.com/altera-opensource/linux-socfpga.git
+
+Verify linux-socfpga-haberly fork has all new tags and the latest can be checked out.
+ 
+   
